@@ -20,7 +20,7 @@ app.post('/consultar-task', async (req, res) => {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Basic MzA0MjVmMzMtYTI5MS00NTZkLTkwOTktZDEyMDc4ZDkyZmRiOjM2OWU5YTA3NjBhMTY2Nzk0MjRkMDA4NDJhNjliNmNk'
+        'Authorization': 'Basic '
       },
       body: '{}' // ou null se for necessário
     });
